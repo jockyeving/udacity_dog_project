@@ -1,6 +1,8 @@
 The goal of this project is to classify images of humans and dogs using different Convolutional Neural Netorks. If the given image is a dog, the breed is guessed, 
 if it's a human, a dog breed that resembles the human image is returned instead.
 
+The blog post connected to this article can be read at: https://medium.com/@jockyeving/dog-breed-classification-using-convolutional-neural-networks-bd9005189104
+
 **Instructions for the repository**
 - To clone this repository, run:
   ```
