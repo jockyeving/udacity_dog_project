@@ -1,6 +1,22 @@
 The goal of this project is to classify images of humans and dogs using different Convolutional Neural Netorks. If the given image is a dog, the breed is guessed, 
 if it's a human, a dog breed that resembles the human image is returned instead.
 
+**Instructions for the repository**
+- To clone this repository, run:
+  ```
+  git clone https://github.com/jockyeving/udacity_dog_project.git
+  ```
+- create an anaconda enviroment:
+  ```
+  conda create --name dog-project python=3.9
+
+  conda activate dog-project
+  ```  
+- install requirements (tested on Python 3.9):
+  ```
+  pip install -r requirements.txt
+  ```
+
 **File Descriprion**
  - requirements.txt - contains the list of neccessary python libraries to run following notebooks
  - dog_app.ipynb - code used in the project
@@ -13,6 +29,6 @@ if it's a human, a dog breed that resembles the human image is returned instead.
 - ResNet-50:81.2201 %
 
 **Acknowledgements, data**
-OpenCV face detector: https://github.com/opencv/opencv/tree/master/data/haarcascades
-ResNet-50 model: https://ethereon.github.io/netscope/#/gist/db945b393d40bfa26006
-ImageNet data: https://www.image-net.org/
+<br>OpenCV face detector: https://github.com/opencv/opencv/tree/master/data/haarcascades
+<br>ResNet-50 model: https://ethereon.github.io/netscope/#/gist/db945b393d40bfa26006
+<br>ImageNet data: https://www.image-net.org/
